@@ -53,16 +53,6 @@ A file `seed/worklogs.json` is included in the repository. You may use it to boo
 
 ---
 
-## Setup
-
-1. Copy `.env.example` to `.env`.
-2. Add a `Dockerfile` inside `backend/` for your application.
-3. Run `docker compose up` to start the database and your application.
-
-You may modify `docker-compose.yml` freely — change the database image, add services, adjust ports. The only requirement is that `docker compose up` starts a working system.
-
----
-
 ## Required Documentation
 
 Your PR must include:
